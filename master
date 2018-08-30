@@ -1,0 +1,29 @@
+# greatest-of-3-nos
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf("Enter 1st number \n");
+scanf("%d",&a);
+
+printf("Enter the second number \n");
+scanf("%d",&b);
+
+printf("Enter the third number \n");
+scanf("%d",&c);
+ 
+if(a>b&&a>c)
+{
+  printf("1st no is the greatest number \n" );
+ }
+  
+  else if(b>a&&b>c)
+        { 
+          printf("2nd number is the largest number \n");
+         }
+  else 
+      {
+        printf("3rd number is the greatest \n");
+       }
+return (0);
+}
